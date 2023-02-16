@@ -1,0 +1,11 @@
+.transactionHistory th {
+  border: 1px solid;
+  font-size: 22px;
+}
+
+tr td {
+  width: 220px;
+  border: 1px solid;
+  font-size: 18px;
+  text-align: center;
+}

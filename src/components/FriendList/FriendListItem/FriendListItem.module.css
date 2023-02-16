@@ -1,0 +1,23 @@
+.item {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+
+  -webkit-box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.86);
+  box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.86);
+}
+
+.avatar {
+  height: fit-content;
+  margin-right: 20px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+}

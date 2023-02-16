@@ -1,8 +1,11 @@
 .profile {
   height: 300px;
   width: 200px;
-  border: 2px solid tomato;
+  margin-bottom: 40px;
   font-size: 14px;
+  -webkit-box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.86);
+  box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.86);
 }
 
 .description {
@@ -42,6 +45,14 @@
   padding: 0;
   background-color: lightgray;
 }
+
+.stats li {
+  width: calc(100% / 3);
+  padding: 1px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
 .quantity {
   display: block;
   justify-content: center;
